@@ -4,7 +4,7 @@
 ; ./a.out                           ---run
 section .text
 global _start
-
+; Debug with: gdb ./a.out
 _start:
 
     mov eax, 10
