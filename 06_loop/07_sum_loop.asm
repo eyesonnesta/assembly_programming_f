@@ -4,7 +4,7 @@ section .data
     newline db 10
 
 section .bss
-    result resb 1
+    result resb 2
 
 section .text
     global _start
