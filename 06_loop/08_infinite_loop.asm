@@ -5,6 +5,7 @@ section .data
 section .text
     global _start
 
+_start:
 repeat:
     ; Print message
     mov rax, 1
